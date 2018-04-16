@@ -3,37 +3,33 @@ import java.util.ArrayList;
 class LuhnValidator {
 
     boolean isValid(String candidate) {
-        if(candidate.length() <= 1){
+        String string = candidate.replaceAll(" ", "");
+        if ((string.length() <= 1) || (!string.matches("[\\d]+"))) {
             return false;
         }
-        if (candidate.contains("[^\\d]")) {
-            return false;
-        }
+        String[] temp = string.split("");
+        int total = 0;
 
-        String [] temp = candidate.replaceAll( " ", "").split("");
         ArrayList<Integer> numbers = new ArrayList<>();
-        for (int i = 0; i <temp.length ; i++) {
+        for (int i = 0; i < temp.length; i++) {
             numbers.add(Integer.valueOf(temp[i]));
         }
-
-        ArrayList<Integer> secondNums = new ArrayList<>();
-        for (int i = numbers.size()-1; i <=0 ; i-=2) {
-            if((numbers.get(i)*2) > 9){
-                secondNums.add((numbers.get(i) * 2) - 9);
+        for (int i = numbers.size() - 2; i >= 0; i -= 2) {
+            numbers.add(i, numbers.get(i)*2);
+            if(numbers.get(i)>9){
+                numbers.add(i, numbers.get(i)-9);
             }
-            secondNums.add((numbers.get(i) * 2));
+//            if ((numbers.get(i) * 2) > 9) {
+//                numbers.add(i, ((numbers.get(i) * 2) - 9));
+//            } else {
+//                numbers.add(i, (numbers.get(i) * 2));
+//            }
+        }
+        for (int i = 0; i < numbers.size(); i++) {
+            total += numbers.get(i);
         }
 
-        int total = 0;
-        for (int i = 0; i <secondNums.size() ; i++) {
-            total += secondNums.get(i);
-        }
-
-        if( total % 10 == 0){
-            return true;
-        }
-        return false;
-
+        return (total % 10 == 0);
     }
 
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrimeCalculatorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-04-15T20:41:54" hostname="zipcoders-MacBook-Pro-10.local" time="1.593">
+  <properties/>
+  <testcase name="testUndefinedPrime" classname="PrimeCalculatorTest" time="0.005"/>
+  <testcase name="primeTest1" classname="PrimeCalculatorTest" time="0.0"/>
+  <testcase name="primeTest2" classname="PrimeCalculatorTest" time="0.0"/>
+  <testcase name="primeTest3" classname="PrimeCalculatorTest" time="0.0"/>
+  <testcase name="primeTest4" classname="PrimeCalculatorTest" time="0.0"/>
+  <testcase name="primeTest5" classname="PrimeCalculatorTest" time="0.0"/>
+  <testcase name="testSixthPrime" classname="PrimeCalculatorTest" time="0.001"/>
+  <testcase name="testFirstPrime" classname="PrimeCalculatorTest" time="0.001"/>
+  <testcase name="testSecondPrime" classname="PrimeCalculatorTest" time="0.0"/>
+  <testcase name="primeTestOne" classname="PrimeCalculatorTest" time="0.0"/>
+  <testcase name="primeTestZero" classname="PrimeCalculatorTest" time="0.0"/>
+  <testcase name="testBigPrime" classname="PrimeCalculatorTest" time="1.582"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
