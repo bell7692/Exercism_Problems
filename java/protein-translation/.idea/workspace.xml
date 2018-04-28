@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68d3c90b-0307-44a5-a40b-c5018a5e70b7" name="Default" comment="" />
+    <list default="true" id="cc524603-a26d-4518-8914-6be63304f1b0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,10 +23,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ProteinTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProteinTranslatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProteinTranslatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -365,15 +373,29 @@
         <entry key="$PROJECT_DIR$/../difference-of-squares" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../gigasecond" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../hamming" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../isbn-verifier" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../isogram" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../largest-series-product" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../luhn" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../matrix" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../nth-prime" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../pangram" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../perfect-numbers" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../prime-factors" value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="IMPORT" />
+        <entry key="$PROJECT_DIR$/../proverb" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../raindrops" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../reverse-string" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../rna-transcription" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../saddle-points" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../scrabble-score" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../secret-handshake" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sieve" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../space-age" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sum-of-multiples" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../triangle" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../twelve-days" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../two-bucket" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../two-fer" value="PREVIEW" />
       </map>
     </option>
@@ -381,6 +403,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/test/java/ProteinTranslatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProteinTranslator.java" />
       </list>
     </option>
@@ -392,10 +415,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1772" />
-    <option name="y" value="645" />
-    <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="x" value="1965" />
+    <option name="y" value="619" />
+    <option name="width" value="1410" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -437,21 +460,34 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="protein-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protein-translation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="protein-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="protein-translation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -555,21 +591,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="68d3c90b-0307-44a5-a40b-c5018a5e70b7" name="Default" comment="" />
-      <created>1523048687612</created>
+      <changelist id="cc524603-a26d-4518-8914-6be63304f1b0" name="Default" comment="" />
+      <created>1523843924363</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523048687612</updated>
-      <workItem from="1523048690482" duration="5021000" />
+      <updated>1523843924363</updated>
+      <workItem from="1523843926056" duration="370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5021000" />
+    <option name="totallyTimeSpent" value="370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1772" y="645" width="1280" height="722" extended-state="0" />
-    <editor active="true" />
+    <frame x="1965" y="619" width="1410" height="865" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -583,8 +618,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38118023" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45979533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15454546" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -612,13 +647,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProteinTranslatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProteinTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
