@@ -1,10 +1,7 @@
 class ReverseString {
-    static reverse(str: any ) {
+    static reverse(str: string ) {
         // Your code here
-        var splitString = str.split("");
-        var reversedArr =  splitString.reverse();
-        var joinedArr =  reversedArr.join("");
-        return joinedArr;
+        return str.split("").reverse().join("")  
     }
 }
 
